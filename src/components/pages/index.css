@@ -11,11 +11,12 @@ body{
 header
 {
     
-    height: 112px;
+    height: 112px ;
     line-height: 112px;
     position: fixed;
     z-index: 1;
     width: 100%;
+    background-color: #00a7dd !important;
     
      
 }
@@ -55,7 +56,7 @@ header nav
 }
 header a.logo
 {
-    float: left;
+    float: left !important;
 }
 
 header nav ul li a
@@ -78,7 +79,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .img1
 {
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(..//image/slider1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../image/slider1.jpg);
     background-size: 100% 100%;
 }
 
@@ -139,14 +140,14 @@ header nav ul li a:hover,header nav ul li a:focus
 }
 .img2
 {
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/eee.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../image/eee.jpg);
     background-size: 100% 100%;
 }
 
 
 .img3
 {
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image//newyork29.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../image/newyork29.jpg);
     background-size: 100% 100%;
 }
 
@@ -306,7 +307,7 @@ header nav ul li a:hover,header nav ul li a:focus
 .feature-area
 {
     
-    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url(../image/slider1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url(../../image/slider1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -534,7 +535,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .testimonials
 {
-    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(..//image/slider1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(../../image/slider1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -692,7 +693,6 @@ header nav ul li a:hover,header nav ul li a:focus
     transition: .3s ease;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
-    -0-transition: .3s ease;
     -ms-transition: .3s ease;
     
     
@@ -707,7 +707,6 @@ header nav ul li a:hover,header nav ul li a:focus
     transition: .4s ease;
     -webkit-transition: .4s ease;
     -moz-transition: .4s ease;
-    -0-transition: .4s ease;
     -ms-transition: .4s ease;
     
 }
@@ -719,7 +718,6 @@ header nav ul li a:hover,header nav ul li a:focus
     transition: 0.5s ease;
     -webkit-transition: .5s ease;
     -moz-transition: .5s ease;
-    -0-transition: .5s ease;
     -ms-transition: .5s ease;
 }
 
@@ -732,7 +730,6 @@ header nav ul li a:hover,header nav ul li a:focus
     transition: .6s ease;
     -webkit-transition: .6s ease;
     -moz-transition: .6s ease;
-    -0-transition: .6s ease;
     -ms-transition: .6s ease;
     
 }
@@ -751,7 +748,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .download
 {
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/clouds.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../image/clouds.jpg);
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -929,7 +926,7 @@ footer
     border-radius: 50%;
     background: white;
     line-height: 2;
-    border-radius:50%
+    border-radius:50%;
     transition: .3s;
     border: 10px solid  #90EE90;
     text-align: center;
