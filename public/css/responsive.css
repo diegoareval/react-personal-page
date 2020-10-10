@@ -1,159 +1,40 @@
-.slicknav_menu
-{
-    display: none;
+@media (min-width: 992px) and (max-width: 1199px) {
+	
 }
-
-@media screen and (max-width: 992px)
-{
-    .slider
-    {
-        margin-top: 112px;
-    }
-    
-    
-    header
-    {
-        margin-top:-112px;
-        background-color: deepskyblue;
-    }
-    
-    #menu
-    {
-     display: none;   
-        
-    }
-    
-    .slicknav_menu
-    {
-        display: inline-block;
-        position: fixed;
-        z-index: 1000;
-        right: 0;
-        background: transparent;
-        margin-top: -112px;
-        
-    }
-    
-    .slicknav_btn
-    {
-        background-color: orange;
-         margin: 35px 30px 0 0; 
-        
-    }
-    
-    .slicknav_nav
-    {
-        background-color: deepskyblue;
-        width: 240px;
-    }
-    
-    .slicknav_nav li
-    {
-        margin:0;
-        padding: 0;
-        height: 3em;
-        line-height: 3em;
-        width: 240px;
-        border-bottom: 1px solid  #0ba8e3; 
-        border-top: 1px solid  #0ba8e3;
-        text-align: center;
-        
-    }
-    
-    
-    .slicknav_nav li a
-    {
-        margin:0;
-        padding: 0;
-        font-weight: bold;
-        transition: all 0.5s ease-in;
-    }
-    
-    
-    .slicknav_nav li a:hover
-    {
-        color: red;
-        background: transparent;
-        text-decoration: none;
-    }
-     
-    
-      
-    }
-    
-    
-@media screen and (max-width: 880px)
-{
-    .feature-mockup img
-    {
-        display: none;
-    }
-
-    .team-social-network
-    {
-        padding-bottom: 70px;
-    }
+@media (min-width: 320px) and (max-width: 991px) {
+ .left-name h2 {
+    font-size: 54px;
+}  
+.left-name h2 span {
+    margin-top: -22px;
 }
-
-@media screen and (max-width:669px)
-{
-    .social-button a  
-    {
-    display: block;
-    width: 94%;
-     
-    } 
+.left-address span {
+    width: 100%;
 }
-
-
- 
-@media screen and (max-width: 405px)
-{
-    .slider a.btn
-    {
-        display: block;
-        width: 100%;
-            
-    }
-    .more-feature-area img
-    {
-        width: 85%;
-        margin-left: 35px;
-    }
-    
-    
-    .slicknav_nav li a
-    {
-        text-decoration: none;
-    }
-     .slicknav_nav li a:focus
-    {
-        color: red;
-    }
-    
-    
-    
-    .feature-mockup img
-    {
-        display: none;
-    }
-   
-   .social-button a  
-    {
-    display: block;
-    width: 94%;
-     
-    }  
-    
+.sn {
+    font-size: 23px;
+    width: 58px;
+    height: 58px;
+    border: 3px dotted #edde45;
+    padding-top: 8px;
 }
- 
-      .    
-   
- 
-
+.right-skills:after, .right-skills:before {
+    content: none;
 }
-
-
-
-
-
+.top-skills {
+    max-width: 100%;
+}
+.right-skills {
+    border-left: 0px solid #edde45;
+    max-width: 100%;
+}
+.col-md-4.intetst-box {
+    width: 50%;
+}
+.address-right-box {
+    padding: 34px 0px 0px;
+}
+.right-skills {
+    width: auto;
+}
+}
