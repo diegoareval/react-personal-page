@@ -5,7 +5,7 @@ import Content from './Pages/Content'
 import Resume from './Pages/Resume'
 import Footer from './Layout/Footer'
 import Contact from './Pages/Contact'
-import { PROFILE, CONTACT } from "./consts/consts";
+import { PROFILE, CONTACT, RESUME } from "./consts/consts";
 
  const Main = () => {
    const [screen, setScreen] = useState(PROFILE)
@@ -16,7 +16,8 @@ import { PROFILE, CONTACT } from "./consts/consts";
 			{
 					screen === CONTACT?
 					<Contact />:
-					<Resume />
+				screen===RESUME?
+        	<Resume />: null
 			}
 			<Footer />
 		</section>

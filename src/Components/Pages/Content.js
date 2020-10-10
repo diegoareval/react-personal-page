@@ -7,20 +7,12 @@ import {  PROFILE } from "../consts/consts";
 		<section id="content">
 			{screen === PROFILE ? (
 				<div id="profile">
-					<div class="about">
-						<div class="photo-inner">
+					<div className="about">
+						<div className="photo-inner">
 							<ul>
 								<li>
-									<img
-										class="img-profile"
-										src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/104897810_981325375670661_7863925908568495196_n.jpg?_nc_cat=105&_nc_sid=09cbfe&_nc_ohc=EzMeMQ3XOI8AX8CZ3Sf&_nc_ht=scontent-mia3-2.xx&oh=919fe63264f8bee456791c09710deb74&oe=5F8D9832"
-										height="186"
-										width="175"
-									/>
-								</li>
-								<li>
-									<img
-										class="img-profile"
+									<img alt="img"
+										className="img-profile"
 										src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/104897810_981325375670661_7863925908568495196_n.jpg?_nc_cat=105&_nc_sid=09cbfe&_nc_ohc=EzMeMQ3XOI8AX8CZ3Sf&_nc_ht=scontent-mia3-2.xx&oh=919fe63264f8bee456791c09710deb74&oe=5F8D9832"
 										height="186"
 										width="175"
@@ -33,7 +25,7 @@ import {  PROFILE } from "../consts/consts";
 						<br />
 						<p>Amo la programacion, coding es parte de mi vida</p>
 					</div>
-					<ul class="personal-info">
+					<ul className="personal-info">
 						<li>
 							<label>Nombre</label>
 							<span>Diego Arevalo</span>
@@ -48,7 +40,7 @@ import {  PROFILE } from "../consts/consts";
 						</li>
 						<li>
 							<label>Correo: </label>
-							<span class="word-wrap">diego2000avelar@gmail.com</span>
+							<span className="word-wrap">diego2000avelar@gmail.com</span>
 						</li>
 						<li>
 							<label>Telefono: </label>
@@ -56,7 +48,7 @@ import {  PROFILE } from "../consts/consts";
 						</li>
 						<li>
 							<label>Profesion:</label>
-							<span class="word-wrap">
+							<span className="word-wrap">
 								<a href="#">Programador</a>
 							</span>
 						</li>
