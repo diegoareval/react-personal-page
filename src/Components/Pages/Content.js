@@ -4,7 +4,7 @@ import {  PROFILE } from "../consts/consts";
 
  const Content = ({screen, setScreen}) => {
   return (
-		<section id="content">
+		<section>
 			{screen === PROFILE ? (
 				<div id="profile">
 					<div className="about">

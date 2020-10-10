@@ -2,7 +2,7 @@ import React from 'react'
 
  const Resume = () => {
   return (
-		<section id="resume">
+		<section>
 			<div className="timeline-section">
 				<div className="main-wrapper-resume">
 					<div className="carttitle-wrapper">

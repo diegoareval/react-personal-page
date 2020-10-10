@@ -3,7 +3,7 @@ import Form from '../Form/form'
 
  const Contact = () => {
   return (
-    <section id="contact">
+    <section>
        <div id="map">
        <iframe src="https://maps.google.com/maps?q=la%20reina%2C%20chalatenango&t=&z=9&ie=UTF8&iwloc=&output=embed" width="300" height="100%" frameborder="0" style={{border: 0}} allowfullscreen=""></iframe></div>
        <div className="contact-info">
