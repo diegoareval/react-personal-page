@@ -3,6 +3,18 @@
 /* Base styles	 */
 
 /*-------------------------------------------------------*/
+
+
+
+/*
+.tmenu.active i {
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+*/
+
 html {
 	overflow-y: scroll;
 }
@@ -303,6 +315,8 @@ header {
 	display: block;
 	margin-bottom: 5px;
 }
+
+
 
 .next, .prev {
 	font-family: 'icomoon';

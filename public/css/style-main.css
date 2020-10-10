@@ -539,12 +539,7 @@ button#green-color {
 	40% {transform: translateY(-0px);}
 	60% {transform: translateY(-10px);}
 }
-.tmenu.active i {
-	animation: bounce 2s infinite;
-	-webkit-animation: bounce 2s infinite;
-	-moz-animation: bounce 2s infinite;
-	-o-animation: bounce 2s infinite;
-}
+
 .form-control {
     display: block;
     width: 100%;

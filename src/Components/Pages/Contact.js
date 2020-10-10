@@ -1,4 +1,5 @@
 import React from 'react'
+import Form from '../Form/form'
 
  const Contact = () => {
   return (
@@ -19,25 +20,7 @@ import React from 'react'
             <div className="contact-form">
               <h3 className="main-heading"><span>Estamos en contacto:</span></h3>
                 <div id="contact-status"></div>
-                    <form action="#" id="contactform">
-                       <p>
-					<div className="form-group">
-						<input type="text" id="name" className="form-control" required/>
-						<label className="form-control-placeholder" for="name">Tu nombre</label>
-					</div>
-                    </p>
-                    <p>
-					<div className="form-group">
-						<input type="text" id="email" className="form-control" required/>
-						<label className="form-control-placeholder" for="email">Tu correo</label>
-					</div>
-                    </p>
-                    <p>
-                    	<label for="message">Tu Mensaje</label>
-                        <textarea name="message" cols="88" rows="6" className="textarea" ></textarea>
-                    </p>
-                    <input type="submit" name="submit" value="Enviar Mensaje" className="button transition"></input>
-                    </form>
+                    <Form/>
             </div>
     </section>
   )
